@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/immafrady/pull-image-from-excel.git"
+    "url": "https://github.com/immafrady/pull-image-from-excel.git"
   },
   "author": "Frady (immafrady@gmail.com)",
   "license": "ISC",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/immafrady/pull-image-from-excel#readme",
   "devDependencies": {},
   "dependencies": {
+    "image-size": "^0.7.2",
     "officegen": "^0.4.7",
     "request": "^2.88.0",
     "xlsx": "^0.14.1"
