@@ -1,5 +1,8 @@
 .idea/
 node_modules/
-input/
-output/
 cache/
+
+*.xls
+*.xlsx
+*.doc
+*.docx
