@@ -1,0 +1,19 @@
+{
+  "name": "pull-image-from-excel",
+  "version": "1.0.0",
+  "description": "从Excel里拿下图片链接，放到Word上",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/immafrady/pull-image-from-excel.git"
+  },
+  "author": "Frady (immafrady@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immafrady/pull-image-from-excel/issues"
+  },
+  "homepage": "https://github.com/immafrady/pull-image-from-excel#readme"
+}
