@@ -4,7 +4,7 @@
   "description": "从Excel里拿下图片链接，放到Word上",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/immafrady/pull-image-from-excel/issues"
   },
-  "homepage": "https://github.com/immafrady/pull-image-from-excel#readme"
+  "homepage": "https://github.com/immafrady/pull-image-from-excel#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "officegen": "^0.4.7",
+    "request": "^2.88.0",
+    "xlsx": "^0.14.1"
+  }
 }
