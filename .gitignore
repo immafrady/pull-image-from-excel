@@ -1,4 +1,7 @@
 .idea/
+logs/
+.input/
+.output/
 node_modules/
 cache/
 
