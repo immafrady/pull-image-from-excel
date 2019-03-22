@@ -13,7 +13,9 @@ async function main() {
     const filename = await CommandLineOutput.ask('文件名为？(默认：导入.xlsx)')
     const excelJson = await ReadExcel.readExcel(filename)
     // ------------------------ 导出到文件夹
+    console.time('mission time')
     await DirectDownload(excelJson, outDir)
+    console.timeEnd('mission time')
     console.log('Mission Completed!')
     // ------------------------ 导出到word
     // const myDoc = await WriteWord(excelJson, outDir)
