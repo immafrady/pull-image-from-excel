@@ -10,6 +10,9 @@ const DirectDownload = require('./lib/DirectDownload/index')
 const outDir = path.resolve(process.cwd(), 'output')
 
 async function main() {
+    if (!fs.existsSync(outDir)) {
+        fs.mkdirSync(outDir)
+    }
     const filename = await CommandLineOutput.ask('文件名为？(默认：导入.xlsx)')
     const excelJson = await ReadExcel.readExcel(filename)
     // ------------------------ 导出到文件夹
